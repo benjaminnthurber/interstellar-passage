@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Interstellar Passage</title>
+<link rel="stylesheet" href="css/style.css"/>
+<link rel="icon" href="images/spaceport-poster.jpg"/>
+
+<title>Contact — Interstellar Passage</title>
+</head>
+<body>
+<header class="site-header">
+  <div class="container nav">
+    <div class="brand">Interstellar Passage</div>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="destinations.html">Destinations</a>
+      <a href="rules.html">Rules of Passage</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </div>
+</header>
+<main>
+  <section class="page-title">
+    <div class="container">
+      <h1>Contact</h1>
+      <p class="muted">Leave a note. Use a name. Or don’t.</p>
+    </div>
+  </section>
+
+  <section class="container contact">
+    <form class="contact-form" method="post" action="#">
+      <label for="name">Name</label>
+      <input type="text" id="name" name="name" placeholder="Optional" />
+
+      <label for="email">Email <span class="req">(required)</span></label>
+      <input type="email" id="email" name="email" required placeholder="you@example.com" />
+
+      <label for="comments">Comments <span class="req">(required)</span></label>
+      <textarea id="comments" name="comments" required rows="6" placeholder="Dock preference, route questions, or praise for the paint job."></textarea>
+
+      <button type="submit" disabled title="Enabled in Week 5">Submit</button>
+      <p class="muted small">Form framework created in Week 4; submission will be activated in Week 5.</p>
+    </form>
+  </section>
+</main>
+<footer class="site-footer">
+  <div class="container">
+    <p>&copy; 2026 Interstellar Passage — Outer Rim Transport &amp; Questionable Destinations</p>
+    <p class="disclaimer">This is an educational project. No actual travel or services are offered.</p>
+  </div>
+</footer>
+</body>
+</html>
